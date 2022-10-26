@@ -1,0 +1,22 @@
+.widget{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100px;
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(175, 174, 174);
+        }
+    }
+}
