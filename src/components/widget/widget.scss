@@ -16,7 +16,54 @@
         .title{
             font-size: 15px;
             font-weight: bold;
-            color: rgb(175, 174, 174);
+            color: rgb(161, 160, 160);
+            text-transform: uppercase;
+        }
+        .counter{
+            font-size: 28px;
+            font-weight: 300;
+        }
+        .link{
+            width: max-content;
+            font-size: 12px;
+            border-bottom: 1px solid gray;
+            cursor: pointer;
+        }
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+
+            &.positive{
+                color: green;
+            }
+            &.negative{
+                color: red;
+            }
+        }
+        .icon{
+            font-size: 18px;
+            padding: 5px;
+            border-radius: 5px;
+            align-self: flex-end;
+
+            &.user{
+                color: crimson;
+                background-color: rgba(255, 0, 0, 0.2);
+            }
+            &.order{
+                color: goldenrod;
+                background-color: rgba(218, 165, 32, 0.2);
+            }
+            &.earning{
+                color: green;
+                background-color: rgba(0, 128, 0, 0.2);
+            }
+            &.balance{
+                color: purple;
+                background-color: rgba(128, 0, 128, 0.2);
+            }
+
         }
     }
 }

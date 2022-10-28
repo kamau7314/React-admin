@@ -2,7 +2,6 @@ import "./navbar.scss"
 import 
 {Search, Language, DarkModeOutlined, FullscreenOutlined, NotificationsNoneOutlined, ChatBubbleOutlineOutlined, FormatListBulletedOutlined} 
 from '@mui/icons-material';
-import FormatListBulletedOutlinedIcon from '@mui/icons-material/FormatListBulletedOutlined';
 
 
 function Navbar() {
